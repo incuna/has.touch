@@ -1,0 +1,15 @@
+{
+    "name": "has.touch",
+    "version": "0.0.1-jam.1",
+    "description": "touch detection for the has.js library, https://github.com/phiggins42/has.js.",
+    "github": "https://github.com/incuna/has.touch",
+    "jam": {
+        "main": "has.touch.js",
+        "include": [
+            "has.touch.js"
+        ],
+        "shim": {
+            "has.touch": ["has"]
+        }
+    }
+}
